@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.sid.tutorials.datastructure.algorithm</groupId>
+		<artifactId>DatastructureAndAlgorithm</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>Algorithms-And-Data-Structures-Part-1</artifactId>
+	<packaging>pom</packaging>
+	<name>algorithms-and-data-structures-Part-1</name>
+	<description>algorithms-and-data-structures-Part-1</description>
+	<modules>
+		<module>Section02Arrays</module>
+		<module>Section03-Linked-Lists</module>
+		<module>Section04-Stacks-Queues</module>
+		<module>Section05-Binary-Search-Trees</module>
+		<module>Section06-Balanced-Trees-AVL-Trees</module>
+	</modules>
+</project>
